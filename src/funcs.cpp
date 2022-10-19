@@ -24,13 +24,20 @@ void inverteNome(char* n)
     cout<<"Printando &n: " <<&n<<endl<<endl;
 
     while(*n != 0)
-    {
+    {   
+        n++;
         i++;
     }
-    n+=i;
+
+     cout << "nome invertido: ";
+     i++;
+
     while(i!=0)
-    {
-        cout<<"nome invertido: "<<*n;
+    {   
+        cout<< *n;
         n--;
+        i--;
     }
+
+    cout<<endl<<endl;
 }

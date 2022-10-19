@@ -7,6 +7,7 @@ void passagemPonteiro(int* x);
 
 void passagemReferencia(int& x);
 */
+
 void inverteNome(char* n);
 
 #endif
